@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828196588478",
+    "project_id": "demopushnotification-9e60c",
+    "storage_bucket": "demopushnotification-9e60c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828196588478:android:09c21c5c7bd905226487ef",
+        "android_client_info": {
+          "package_name": "marami.task.demodatacorporation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-6cJCUJDDCeOjHK4FeAZjkPmnxw72kSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
