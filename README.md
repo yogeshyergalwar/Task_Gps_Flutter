@@ -1,22 +1,37 @@
-#Old Backup With OTP Integration & Associate Donwline Venture Filter.
-# mil
-UPTO BLANK SCREEN BUG RESOLVED.
-A new Flutter project for mil
+# Flutter User Directory App
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This app demonstrates a modern Flutter application using **MVC architecture**,
+**GetX for state management**, and APIs to fetch user data. It also integrates**location services**, 
+**image upload and persistence**, and a clean UI optimized for industry standards.
 
 
-Add Running Tags
+## Features
 
---flavor tricolour --dart-define=MIL_ENV=.tc
+- Get current **latitude**, **longitude**, and **address**
+- Display **current date & time**
+- Fetch users from [https://reqres.in/api/users?page=2](https://reqres.in/api/users?page=2)
+- Upload image from **camera/gallery** per user
+-  Save and persist images locally using **Hive**
+- Tap avatar to view **full-screen preview**
+- Responsive, clean UI using cards and divider styling
+
+---
+
+## 📦 Tech Stack
+
+- **Flutter**
+- **GetX** – state management
+- **Hive** – local storage
+- **Geolocator & Geocoding** – location/address
+- **ImagePicker** – camera/gallery
+- **Permission Handler**
+
+---
+
+## How to Run
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yogeshyergalwar/User-Directory-App-iguru.git
+
